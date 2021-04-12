@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECEE680726246AD1000B8048 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE680626246AD1000B8048 /* AppDelegate.m */; };
+		ECEE680A26246AD1000B8048 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE680926246AD1000B8048 /* SceneDelegate.m */; };
+		ECEE680D26246AD1000B8048 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE680C26246AD1000B8048 /* ViewController.m */; };
+		ECEE681026246AD1000B8048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEE680E26246AD1000B8048 /* Main.storyboard */; };
+		ECEE681226246AD2000B8048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEE681126246AD2000B8048 /* Assets.xcassets */; };
+		ECEE681526246AD2000B8048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEE681326246AD2000B8048 /* LaunchScreen.storyboard */; };
+		ECEE681826246AD2000B8048 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE681726246AD2000B8048 /* main.m */; };
+		ECEE682226246AD2000B8048 /* Cocos_StudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE682126246AD2000B8048 /* Cocos_StudyTests.m */; };
+		ECEE682D26246AD2000B8048 /* Cocos_StudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE682C26246AD2000B8048 /* Cocos_StudyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECEE681E26246AD2000B8048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECEE67FA26246AD1000B8048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECEE680126246AD1000B8048;
+			remoteInfo = Cocos_Study;
+		};
+		ECEE682926246AD2000B8048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECEE67FA26246AD1000B8048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECEE680126246AD1000B8048;
+			remoteInfo = Cocos_Study;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECEE680226246AD1000B8048 /* Cocos_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocos_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEE680526246AD1000B8048 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECEE680626246AD1000B8048 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECEE680826246AD1000B8048 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ECEE680926246AD1000B8048 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ECEE680B26246AD1000B8048 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECEE680C26246AD1000B8048 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECEE680F26246AD1000B8048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECEE681126246AD2000B8048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECEE681426246AD2000B8048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECEE681626246AD2000B8048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEE681726246AD2000B8048 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECEE681D26246AD2000B8048 /* Cocos_StudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cocos_StudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEE682126246AD2000B8048 /* Cocos_StudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cocos_StudyTests.m; sourceTree = "<group>"; };
+		ECEE682326246AD2000B8048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEE682826246AD2000B8048 /* Cocos_StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cocos_StudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEE682C26246AD2000B8048 /* Cocos_StudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cocos_StudyUITests.m; sourceTree = "<group>"; };
+		ECEE682E26246AD2000B8048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECEE67FF26246AD1000B8048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEE681A26246AD2000B8048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEE682526246AD2000B8048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECEE67F926246AD1000B8048 = {
+			isa = PBXGroup;
+			children = (
+				ECEE680426246AD1000B8048 /* Cocos_Study */,
+				ECEE682026246AD2000B8048 /* Cocos_StudyTests */,
+				ECEE682B26246AD2000B8048 /* Cocos_StudyUITests */,
+				ECEE680326246AD1000B8048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECEE680326246AD1000B8048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECEE680226246AD1000B8048 /* Cocos_Study.app */,
+				ECEE681D26246AD2000B8048 /* Cocos_StudyTests.xctest */,
+				ECEE682826246AD2000B8048 /* Cocos_StudyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECEE680426246AD1000B8048 /* Cocos_Study */ = {
+			isa = PBXGroup;
+			children = (
+				ECEE680526246AD1000B8048 /* AppDelegate.h */,
+				ECEE680626246AD1000B8048 /* AppDelegate.m */,
+				ECEE680826246AD1000B8048 /* SceneDelegate.h */,
+				ECEE680926246AD1000B8048 /* SceneDelegate.m */,
+				ECEE680B26246AD1000B8048 /* ViewController.h */,
+				ECEE680C26246AD1000B8048 /* ViewController.m */,
+				ECEE680E26246AD1000B8048 /* Main.storyboard */,
+				ECEE681126246AD2000B8048 /* Assets.xcassets */,
+				ECEE681326246AD2000B8048 /* LaunchScreen.storyboard */,
+				ECEE681626246AD2000B8048 /* Info.plist */,
+				ECEE681726246AD2000B8048 /* main.m */,
+			);
+			path = Cocos_Study;
+			sourceTree = "<group>";
+		};
+		ECEE682026246AD2000B8048 /* Cocos_StudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECEE682126246AD2000B8048 /* Cocos_StudyTests.m */,
+				ECEE682326246AD2000B8048 /* Info.plist */,
+			);
+			path = Cocos_StudyTests;
+			sourceTree = "<group>";
+		};
+		ECEE682B26246AD2000B8048 /* Cocos_StudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECEE682C26246AD2000B8048 /* Cocos_StudyUITests.m */,
+				ECEE682E26246AD2000B8048 /* Info.plist */,
+			);
+			path = Cocos_StudyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECEE680126246AD1000B8048 /* Cocos_Study */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEE683126246AD2000B8048 /* Build configuration list for PBXNativeTarget "Cocos_Study" */;
+			buildPhases = (
+				ECEE67FE26246AD1000B8048 /* Sources */,
+				ECEE67FF26246AD1000B8048 /* Frameworks */,
+				ECEE680026246AD1000B8048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cocos_Study;
+			productName = Cocos_Study;
+			productReference = ECEE680226246AD1000B8048 /* Cocos_Study.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECEE681C26246AD2000B8048 /* Cocos_StudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEE683426246AD2000B8048 /* Build configuration list for PBXNativeTarget "Cocos_StudyTests" */;
+			buildPhases = (
+				ECEE681926246AD2000B8048 /* Sources */,
+				ECEE681A26246AD2000B8048 /* Frameworks */,
+				ECEE681B26246AD2000B8048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECEE681F26246AD2000B8048 /* PBXTargetDependency */,
+			);
+			name = Cocos_StudyTests;
+			productName = Cocos_StudyTests;
+			productReference = ECEE681D26246AD2000B8048 /* Cocos_StudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECEE682726246AD2000B8048 /* Cocos_StudyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEE683726246AD2000B8048 /* Build configuration list for PBXNativeTarget "Cocos_StudyUITests" */;
+			buildPhases = (
+				ECEE682426246AD2000B8048 /* Sources */,
+				ECEE682526246AD2000B8048 /* Frameworks */,
+				ECEE682626246AD2000B8048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECEE682A26246AD2000B8048 /* PBXTargetDependency */,
+			);
+			name = Cocos_StudyUITests;
+			productName = Cocos_StudyUITests;
+			productReference = ECEE682826246AD2000B8048 /* Cocos_StudyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECEE67FA26246AD1000B8048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					ECEE680126246AD1000B8048 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					ECEE681C26246AD2000B8048 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ECEE680126246AD1000B8048;
+					};
+					ECEE682726246AD2000B8048 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ECEE680126246AD1000B8048;
+					};
+				};
+			};
+			buildConfigurationList = ECEE67FD26246AD1000B8048 /* Build configuration list for PBXProject "Cocos_Study" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECEE67F926246AD1000B8048;
+			productRefGroup = ECEE680326246AD1000B8048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECEE680126246AD1000B8048 /* Cocos_Study */,
+				ECEE681C26246AD2000B8048 /* Cocos_StudyTests */,
+				ECEE682726246AD2000B8048 /* Cocos_StudyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECEE680026246AD1000B8048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEE681526246AD2000B8048 /* LaunchScreen.storyboard in Resources */,
+				ECEE681226246AD2000B8048 /* Assets.xcassets in Resources */,
+				ECEE681026246AD1000B8048 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEE681B26246AD2000B8048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEE682626246AD2000B8048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECEE67FE26246AD1000B8048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEE680D26246AD1000B8048 /* ViewController.m in Sources */,
+				ECEE680726246AD1000B8048 /* AppDelegate.m in Sources */,
+				ECEE681826246AD2000B8048 /* main.m in Sources */,
+				ECEE680A26246AD1000B8048 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEE681926246AD2000B8048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEE682226246AD2000B8048 /* Cocos_StudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEE682426246AD2000B8048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEE682D26246AD2000B8048 /* Cocos_StudyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECEE681F26246AD2000B8048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECEE680126246AD1000B8048 /* Cocos_Study */;
+			targetProxy = ECEE681E26246AD2000B8048 /* PBXContainerItemProxy */;
+		};
+		ECEE682A26246AD2000B8048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECEE680126246AD1000B8048 /* Cocos_Study */;
+			targetProxy = ECEE682926246AD2000B8048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECEE680E26246AD1000B8048 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEE680F26246AD1000B8048 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECEE681326246AD2000B8048 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEE681426246AD2000B8048 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECEE682F26246AD2000B8048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECEE683026246AD2000B8048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECEE683226246AD2000B8048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM8JF3A4UR;
+				INFOPLIST_FILE = Cocos_Study/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gongao.happy.Cocos-Study";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECEE683326246AD2000B8048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM8JF3A4UR;
+				INFOPLIST_FILE = Cocos_Study/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gongao.happy.Cocos-Study";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECEE683526246AD2000B8048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM8JF3A4UR;
+				INFOPLIST_FILE = Cocos_StudyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gongao.happy.Cocos-StudyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cocos_Study.app/Cocos_Study";
+			};
+			name = Debug;
+		};
+		ECEE683626246AD2000B8048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM8JF3A4UR;
+				INFOPLIST_FILE = Cocos_StudyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gongao.happy.Cocos-StudyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cocos_Study.app/Cocos_Study";
+			};
+			name = Release;
+		};
+		ECEE683826246AD2000B8048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM8JF3A4UR;
+				INFOPLIST_FILE = Cocos_StudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gongao.happy.Cocos-StudyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cocos_Study;
+			};
+			name = Debug;
+		};
+		ECEE683926246AD2000B8048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM8JF3A4UR;
+				INFOPLIST_FILE = Cocos_StudyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gongao.happy.Cocos-StudyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cocos_Study;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECEE67FD26246AD1000B8048 /* Build configuration list for PBXProject "Cocos_Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEE682F26246AD2000B8048 /* Debug */,
+				ECEE683026246AD2000B8048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEE683126246AD2000B8048 /* Build configuration list for PBXNativeTarget "Cocos_Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEE683226246AD2000B8048 /* Debug */,
+				ECEE683326246AD2000B8048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEE683426246AD2000B8048 /* Build configuration list for PBXNativeTarget "Cocos_StudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEE683526246AD2000B8048 /* Debug */,
+				ECEE683626246AD2000B8048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEE683726246AD2000B8048 /* Build configuration list for PBXNativeTarget "Cocos_StudyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEE683826246AD2000B8048 /* Debug */,
+				ECEE683926246AD2000B8048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECEE67FA26246AD1000B8048 /* Project object */;
+}
