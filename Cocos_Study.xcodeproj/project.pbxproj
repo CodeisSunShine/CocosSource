@@ -16,6 +16,7 @@
 		ECEE681826246AD2000B8048 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE681726246AD2000B8048 /* main.m */; };
 		ECEE682226246AD2000B8048 /* Cocos_StudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE682126246AD2000B8048 /* Cocos_StudyTests.m */; };
 		ECEE682D26246AD2000B8048 /* Cocos_StudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE682C26246AD2000B8048 /* Cocos_StudyUITests.m */; };
+		ECEE683F26246B08000B8048 /* CCEAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE683E26246B08000B8048 /* CCEAGLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		ECEE682826246AD2000B8048 /* Cocos_StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cocos_StudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEE682C26246AD2000B8048 /* Cocos_StudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cocos_StudyUITests.m; sourceTree = "<group>"; };
 		ECEE682E26246AD2000B8048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEE683D26246B08000B8048 /* CCEAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCEAGLView.h; sourceTree = "<group>"; };
+		ECEE683E26246B08000B8048 /* CCEAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCEAGLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				ECEE681326246AD2000B8048 /* LaunchScreen.storyboard */,
 				ECEE681626246AD2000B8048 /* Info.plist */,
 				ECEE681726246AD2000B8048 /* main.m */,
+				ECEE683D26246B08000B8048 /* CCEAGLView.h */,
+				ECEE683E26246B08000B8048 /* CCEAGLView.m */,
 			);
 			path = Cocos_Study;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			files = (
 				ECEE680D26246AD1000B8048 /* ViewController.m in Sources */,
 				ECEE680726246AD1000B8048 /* AppDelegate.m in Sources */,
+				ECEE683F26246B08000B8048 /* CCEAGLView.m in Sources */,
 				ECEE681826246AD2000B8048 /* main.m in Sources */,
 				ECEE680A26246AD1000B8048 /* SceneDelegate.m in Sources */,
 			);
@@ -444,6 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CM8JF3A4UR;
 				INFOPLIST_FILE = Cocos_Study/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CM8JF3A4UR;
 				INFOPLIST_FILE = Cocos_Study/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
