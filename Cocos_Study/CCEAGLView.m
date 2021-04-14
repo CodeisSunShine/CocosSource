@@ -17,13 +17,17 @@
      true: 保留绘制后的Buffer内容，这样会导致性能下降和占用额外内存开销的问题
      false: 每一次绘制完之后都会把渲染 buffer 清空，导致的后果就是展示 buffer 和 渲染 buffer 各自维护一组点，然后交替显示。
      
-     kEAGLDrawablePropertyColorFormat: 绘制对象内部的颜色缓存区格式
+     kEAGLDrawablePropertyColorFormat:·  绘制对象内部的颜色缓存区格式
      
      */
 //    eagLayer.drawableProperties = [NSDictionary dictionaryWithObjectsAndKeys:
 //                                   [NSNumber numberWithBool:self.preserveBackbuffer],kEAGLDrawablePropertyRetainedBacking,
 //                                   self.pixelformatString,kEAGLDrawablePropertyRetainedBacking, nil];
     
+    /*
+     
+     
+     */
     if (!self.sharegroup) {
         self.context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES3];
         if (!self.context) {
@@ -36,6 +40,7 @@
         }
     }
     
+    // 设置当前线程的上下文
     if (!self.context || ![EAGLContext setCurrentContext:self.context]) {
         NSLog(@"Can not crate GL context.");
         return;
@@ -61,12 +66,31 @@
     }
     
     glBindRenderbuffer(GL_RENDERBUFFER, self.defaultColorBuffer);
-    glFramebufferRenderbuffer(GL_FRAMEBUFFER, <#GLenum attachment#>, <#GLenum renderbuffertarget#>, <#GLuint renderbuffer#>)
-    if () {
-        <#statements#>
+    glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_RENDERBUFFER, self.defaultColorBuffer);
+    [self checkGLError];
+    
+    if (!_multisampling || (0 == _msaaFramebuffer)) {
+        return YES;
     }
     
-    return NO;
+    glBindFramebuffer(GL_FRAMEBUFFER, _msaaFramebuffer);
+    glGenBuffers(1, &_msaaColorBuffer);
+    if (0 == _msaaColorBuffer) {
+        NSLog(@"Can not create multi sampling color buffer.");
+        return YES;
+    }
+    
+    glBindRenderbuffer(GL_RENDERBUFFER, _msaaColorBuffer);
+    glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_RENDERBUFFER, _msaaColorBuffer);
+    [self checkGLError];
+    return YES;
+}
+
+- (void)checkGLError {
+    GLenum __error = glGetError();
+    if (__error) {
+        NSLog(@"error 0x%04X in %@",__error);
+    }
 }
 
 - (BOOL)createFrameBuffer {
